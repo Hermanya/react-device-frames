@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Pixel3XL: React.FC<{
-  href: string;
-}> = ({ href, ...props }) => (
+  screenshot: string;
+}> = ({ screenshot, ...props }) => (
   <svg
     width={'100%'}
     height={'100%'}
@@ -446,7 +446,7 @@ const Pixel3XL: React.FC<{
         id="Pixel3XL__image0"
         width={1440}
         height={2960}
-        xlinkHref={href}
+        xlinkHref={screenshot}
       />
     </defs>
   </svg>

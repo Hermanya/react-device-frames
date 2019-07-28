@@ -1,6 +1,6 @@
 import React from 'react';
 
-const IPhoneX: React.FC<{ href: string }> = ({ href, ...props }) => (
+const IPhoneX: React.FC<{ screenshot: string }> = ({ screenshot, ...props }) => (
   <svg
     width={'100%'}
     height={'100%'}
@@ -443,7 +443,7 @@ const IPhoneX: React.FC<{ href: string }> = ({ href, ...props }) => (
       >
         <use xlinkHref="#IPhoneX__image0" transform="scale(.00053 .00025)" />
       </pattern>
-      <image id="IPhoneX__image0" width={1892} height={4096} href={href} />
+      <image id="IPhoneX__image0" width={1892} height={4096} href={screenshot} />
     </defs>
   </svg>
 );
