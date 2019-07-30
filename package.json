@@ -1,7 +1,7 @@
 {
   "name": "react-device-frames",
   "description": "Device frame components for React: npm install react-device-frames",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/react-device-frames.esm.js",
   "typings": "dist/index.d.ts",
