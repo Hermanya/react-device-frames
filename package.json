@@ -1,9 +1,21 @@
 {
   "name": "react-device-frames",
+  "description": "Device frame components for React: npm install react-device-frames",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/react-device-frames.esm.js",
   "typings": "dist/index.d.ts",
+  "keywords": [
+    "devices",
+    "frames",
+    "react",
+    "react-devices",
+    "react-iphone",
+    "react-android-phone",
+    "react-chrome-window",
+    "device-frames",
+    "react-frames"
+  ],
   "files": [
     "dist"
   ],
