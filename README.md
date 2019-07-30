@@ -6,11 +6,9 @@
   </a>
 </p>
 
-> yarn add react-device-frames
+> npm install react-device-frames || yarn add react-device-frames
 
-[Website](https://Hermanya.github.io/react-device-frames)
-
-<img src="./screenshots/Screen1.png"/>
+<a href="https://Hermanya.github.io/react-device-frames">Demo Website</a>
 
 ```jsx
 <IPhoneX screenshot={"http://placehold.jp/1125x2436.png"} />
@@ -18,7 +16,7 @@
 
 ## Apple iPhone X
 
-<img src="./screenshots/Screen1.png"/>
+<img src="./screenshots/Screen1.png" width="410"/>
 
 ```jsx
 <IPhoneX screenshot={"http://placehold.jp/1125x2436.png"} />
@@ -26,7 +24,7 @@
 
 ## Google Pixel 3 XL
 
-<img src="./screenshots/Screen3.png"/>
+<img src="./screenshots/Screen3.png" width="410"/>
 
 ```jsx
 <Pixel3XL screenshot={"http://placehold.jp/720x1480.png"} />
@@ -34,7 +32,7 @@
 
 ## Google Chrome
 
-<img src="./screenshots/Screen4.png"/>
+<img src="./screenshots/Screen4.png" width="410"/>
 
 ```jsx
 <Chrome screenshot={"http://placehold.jp/1200x700.png"} />
