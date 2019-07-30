@@ -23,7 +23,7 @@
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --env=jsdom",
-    "deploy": "gh-pages -d dist"
+    "deploy": "(cd example; yarn build);gh-pages -d example/dist --dotfiles=true "
   },
   "peerDependencies": {
     "react": ">=16"
@@ -44,6 +44,7 @@
     "react-dom": "^16.8.6",
     "tsdx": "^0.7.2",
     "tslib": "^1.10.0",
-    "typescript": "^3.5.3"
+    "typescript": "^3.5.3",
+    "gh-pages": "^2.0.1"
   }
 }

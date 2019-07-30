@@ -89,7 +89,7 @@ const App = () => {
         <Heading>Device frame components for React</Heading>
         <Description>npm install react-device-frames</Description>
         <Links>
-          <Link href="https://github.io/Hermanya/react-device-frames">
+          <Link href="https://github.com/Hermanya/react-device-frames">
             Star on GitHub
           </Link>
         </Links>

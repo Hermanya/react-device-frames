@@ -10,10 +10,6 @@
 
 <a href="https://Hermanya.github.io/react-device-frames">Demo Website</a>
 
-```jsx
-<IPhoneX screenshot={"http://placehold.jp/1125x2436.png"} />
-```
-
 ## Apple iPhone X
 
 <img src="./screenshots/Screen1.png" width="410"/>
