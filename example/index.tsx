@@ -76,6 +76,12 @@ const Link = styled.a`
   text-decoration: none;
 `;
 
+const Footer = styled.header`
+  padding: 70px;
+  width: 100%;
+  text-align: center;
+`;
+
 const App = () => {
   return (
     <Container>
@@ -120,6 +126,10 @@ const App = () => {
           </LiveProvider>
         </DemoContainer>
       </DemosContainer>
+      <Footer>
+        Made by <a href="https://starikov.dev">Herman Starikov</a> based on{" "}
+        <a href="https://mockups.kkuistore.com/">KK UI Store</a> design
+      </Footer>
     </Container>
   );
 };
