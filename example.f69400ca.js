@@ -56791,7 +56791,7 @@ var Footer = styled_components_1.default.header(templateObject_10 || (templateOb
 
 var App = function App() {
   return React.createElement(Container, null, React.createElement(Header, null, React.createElement(Heading, null, "Device frame components for React"), React.createElement(Description, null, "npm install react-device-frames"), React.createElement(Links, null, React.createElement(Link, {
-    href: "https://github.io/Hermanya/react-device-frames"
+    href: "https://github.com/Hermanya/react-device-frames"
   }, "Star on GitHub"))), React.createElement(DemosContainer, null, React.createElement(DemoContainer, null, React.createElement(react_live_1.LiveProvider, {
     scope: {
       IPhoneX: _1.IPhoneX
